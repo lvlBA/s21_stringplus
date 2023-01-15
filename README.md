@@ -2,61 +2,11 @@
 
 Implementation of the string.h library with additions.
 
-The russian version of the task can be found in the repository.
-
-
-## Contents
-0. [Preamble](#preamble)
-1. [Chapter I](#chapter-i) \
-    1.1. [Introduction](#introduction)
-2. [Chapter II](#chapter-ii) \
-    2.1. [Information](#information)
-3. [Chapter III](#chapter-iii) \
-    3.1. [Part 1](#part-1-implementation-of-the-stringh-library-functions)  
-    3.2. [Part 2](#part-2-partial-implementation-of-the-sprintf-function)  
-    3.3. [Part 3](#part-3-bonus-implementation-of-some-format-modifiers-of-the-sprintf-function)  
-    3.4. [Part 4](#part-4-bonus-implementation-of-the-sscanf-function)  
-    3.5. [Part 5](#part-5-bonus-implementation-of-special-string-processing-functions)  
-
-
-## Preamble
-
-![s21_string+](misc/eng/images/s21_stringplus.png)
-
-1942, late evening, Bletchley Park, Alan Turing's desk. For almost a year, a group of smartest mathematicians, linguists, and crossword puzzle enthusiasts has been trying to solve the most difficult problem of deciphering the German Enigma encryption machine, the codes for which change every day, and the number of possible combinations is about two to the power of 64. The group often had to come up with different algorithms, and they even developed a special set of keywords and their syntax for the convenience of communication and logging and it’s exactly like the well-known C language in our universe. What a remarkable coincidence! But there was one difficulty – the Bletchley Park workers had to keep the entire sequence of actions described in this language in their heads. 
-
-As you walk past Turing's desk, you notice a sheet that says "For letters, punctuation marks, words, and sentences processing".
-
-*- "What is this, Alan?"* you said to the thoughtful young man standing at the window.
-
-*-- "These are the functions that will make our lives easier! You know, deciphering Enigma by brute force…I'd rather marry Joan than we do that. Therefore, it seems that we need to keep analysing texts, looking for patterns and coincidences. And so, we’ll have to come up with various algorithms related to the processing of that very text and describe them. That is why we need a number of functions to help us with that. I'm working on them now."*
-
-*- "And you do that using our new unified algorithms representing tool?"*
-
-*-- "Yes, this is exactly how I do it. Where else could we use these functions?"* having said that, Turing looked at you as if you were a narrow minded person. You realised it and decided to show off your knowledge of the question:
-
-*- "You know I think we really need this. I just recently learned this "specific language of algorithms transmission"."*
-
-*-- "Seriously?"* Alan asked with some interest.
-
-*- "Well, yes."*
-
-After a few seconds, Turing came to a logical conclusion to entrust the job to you:
-
-*-- "Listen, do you want to do it yourself? Get some not-so-busy 
-people and go ahead. And I'll keep working on my mechanical code-breaking machine."*
-
-After thinking about it for a few seconds, you decide it's a great idea:
-
-*- "Yes, we’ll do everything in a best possible way!"*
-
-
 ## Chapter I
 
 ## Introduction
 
 In this project you will develop your own implementation of the string.h library in C programming language with some additions (with your own implementation of sprintf and sscanf functions). The string.h library is the main C library for string processing. As part of the project you’ll work on tasks with string data and consolidate the structured approach.
-
 
 ## Chapter II
 
@@ -235,6 +185,3 @@ Bonus assignment for extra points. You must implement some string processing fun
 - The functions must be placed in the s21_string.h library.
 - All of the requirements outlined in [the first part](#part-1-implementation-of-the-stringh-library-functions) are applied to functions implementation, 
   excluding the requirement to compare your implementation with the standard.
-
-
-💡 [Tap here](https://forms.yandex.ru/u/6357d8f4d046882e611f10cd/) **to leave your feedback on the project**. Pedago Team really tries to make your educational experience better.
